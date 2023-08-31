@@ -1,3 +1,191 @@
-<html>
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/images/favicon.ico" />
+    <title>Sophia Yu Ji Portfolio</title>
+    <meta name="description" content="my portfolio." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/typography.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <span class="nav-title">My Portfolio</span>
+        <a class="button" href="mailto:sophia.jiyu@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <img src="./assets/images/wit.png" class="portfolio-header-image" />
+          <a
+            class="no-underline"
+            target="_blank"
+            href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311"
+          >
+            <span class="image-caption">yuji</span>
+          </a>
+        </div>
+
+        <div id="portfolio-header-text-container">
+          <div class="header-text">
+            <span class="main-title">Hi, I'm Sophia @Melbourne</span>
+            <div class="body-text">
+              🚀 An aspiring Software Engineer with a diverse background in
+              language teaching and migration consulting, offering a unique
+              fusion of cross-cultural expertise and technical proficiency.
+            </div>
+          </div>
+          <a
+            class="button"
+            id="my-work-link"
+            href="./assets/YuJi_resume.pdf"
+            target="_blank"
+          >
+            <span class="button-text">Get to know me a bit more</span>
+            <image
+              src="./assets/icons/arrow-right.svg"
+              class="right-arrow-icon"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div id="about-section">
+        <span class="subheader-text">About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">
+            I am a former Chinese Teacher who has decided to shift career from a
+            Language trainer to a Code decoder 👩🏻‍🏫 ->👩🏻‍💻. Passionate about the
+            intersection of technology and its impact on the world. Eager to
+            contribute to the innovative and inclusive tech industry.
+          </div>
+          <div class="body-text">
+            🎓 Currently in the final sprint of my 9-month immersive journey at
+            Holberton School Australia. From mastering C programming to
+            embracing Python, JavaScript, MySQL, React, NodeJS, HTML, CSS,
+            GitHub, and more, I'm continuously broadening my skillset and
+            maintaining a hunger for adaptability.
+          </div>
+          <div class="body-text">
+            💼 Drawing from my dynamic experiences in language teaching,
+            migration consulting, and management, I bring a versatile range of
+            professional insights to the table. I'm excited to channel my
+            effective communication, collaborative spirit, perseverance and
+            problem-solving commitment into a fresh career path, where I can
+            make a substantial impact in a compatible company.
+          </div>
+          <div class="body-text">
+            🌟 Beyond my professional pursuits, I find great joy in nurturing
+            both my intellect and physique. Over a decade of daily reading and
+            nearly 3 years of dedicated fitness training reflect my commitment
+            to holistic growth. As a devoted mother of two wonderful children,
+            I'm driven by the aspiration to set positive examples for them. This
+            propels me to seek novel challenges and opportunities, fostering my
+            personal and professional evolution.
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <span class="subheader-text">My Passions</span>
+
+        <div class="projects-container">
+          <div class="project-card">
+            <img src="./assets/images/airbnb.png" class="project-image" />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">
+                Project: Airbnb Clone
+              </div>
+              <div class="body-text project-card-text">
+                A simplified replica of the Airbnb website, with a command line
+                interpreter to manipulate data like shell
+              </div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image
+                src="./assets/icons/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/kidsknow.jpeg" class="project-image" />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">
+                On-going Project: Kids Know
+              </div>
+              <div class="body-text project-card-text">
+                A job management web application targeting at young users for
+                the purpose of self-directed study by implementing
+                functionalities like creating tasks, calendars, progress
+                tracking, etc.
+              </div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image
+                src="./assets/icons/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/family.jpeg" class="project-image" />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Life and Leisure</div>
+              <div class="body-text project-card-text">
+                In passions' embrace, we thrive so bright/ Life's vibrant
+                colors, pure delight/ Chasing dreams with hearts aglow/ In every
+                moment, life's beauty we know.
+              </div>
+            </div>
+            <a class="button" href="./project-pages/project-template.html">
+              <span class="button-text">Read More</span>
+              <image
+                src="./assets/icons/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a
+        class="icon-link"
+        target="_blank"
+        href="https://twitter.com/whitevans_eth"
+      >
+        <image src="./assets/icons/instagram.svg" class="footer-icon" />
+      </a>
+      <a
+        class="icon-link"
+        target="_blank"
+        href="https://twitter.com/whitevans_eth"
+      >
+        <image src="./assets/icons/twitter.svg" class="footer-icon" />
+      </a>
+
+      <a class="icon-link" href="mailto:sophia.jiyu@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon" />
+      </a>
+    </div>
+  </body>
 </html>
