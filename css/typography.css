@@ -25,6 +25,8 @@ body {
 .subheader-text {
   font-size: 20px;
   font-weight: 700;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .body-text {
